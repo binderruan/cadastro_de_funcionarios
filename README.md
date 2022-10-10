@@ -11,5 +11,5 @@ ALTER USER 'ruan'@'localhost' IDENTIFIED WITH mysql_native_password BY 'binderru
 GRANT ALL PRIVILEGES ON * . * TO 'ruan'@'localhost';
 flush privileges;
 
-3. Criar database RH<br />
+3. Criar database rh_funcionarios <br />
 create database rh_funcionarios;
